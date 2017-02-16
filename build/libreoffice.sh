@@ -4,15 +4,15 @@
 VERSION="5.0.2"
 
 # Official download for .debs
-DEB_DOWNLOAD_URL="http://download.documentfoundation.org/libreoffice/stable/${VERSION}/deb/x86_64/LibreOffice_${VERSION}_Linux_x86-64_deb.tar.gz"
-GETTEXT_DOWNLOAD_URL="http://ftp.gnu.org/pub/gnu/gettext/gettext-0.18.3.1.tar.gz"
-DBUS_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus/dbus-1.6.18.tar.gz"
-LIBFFI_DOWNLOAD_URL="ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz"
-GLIB_DOWNLOAD_URL="http://ftp.gnome.org/pub/gnome/sources/glib/2.38/glib-2.38.2.tar.xz"
-DBUS_GLIB_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.100.2.tar.gz"
-FLEX_DOWNLOAD_URL="http://sourceforge.net/projects/flex/files/flex-2.5.39.tar.xz/download"
-MESA_DOWNLOAD_URL="ftp://ftp.freedesktop.org/pub/mesa/11.0.4/mesa-11.0.4.tar.xz"
-GLU_DOWNLOAD_URL="ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.0.tar.gz"
+DEB_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/LibreOffice_${VERSION}_Linux_x86-64_deb.tar.gz"
+GETTEXT_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/gettext-0.18.3.1.tar.gz"
+DBUS_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/dbus-1.6.18.tar.gz"
+LIBFFI_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/libffi-3.0.13.tar.gz"
+GLIB_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/glib-2.38.2.tar.xz"
+DBUS_GLIB_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/dbus-glib-0.100.2.tar.gz"
+FLEX_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/flex-2.5.39.tar.xz"
+MESA_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/mesa-11.0.4.tar.xz"
+GLU_DOWNLOAD_URL="https://static.liveboard.io/libreoffice-heroku-buildpack/glu-9.0.0.tar.gz"
 
 # File names
 LIBREOFFICE_BINARIES_FILE="libreoffice${VERSION}_x86-64.tar.gz"
